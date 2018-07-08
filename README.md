@@ -41,6 +41,6 @@ audio-signal-classification</br>
 ├── feature-extraction-train-and-inference.py</br>
 └── predict_output.csv</br>
 
-Put all your data into data directory. Keep the file_name and class_name in a <b>.csv</b> file (like <b>train.csv</b> or <b>test.csv</b>).
-Write a seperate inference file to check on any input sample. All training, test and inference logic provided in a single file '<b>feature-extraction-train-and-inference.py</b>', make it modular as per your use.
-<b>predict_output.csv</b> will be the output after executing <b>feature-extraction-train-and-inference.py</b>, this will contain class wise classification prediction probability.
+Put all your data into data directory. Keep the file_name and class_name in a <b>.csv</b> file (like <b>train.csv</b> or <b>test.csv</b>).</br>
+Write a seperate inference file to check on any input sample. All training, test and inference logic provided in a single file '<b>feature-extraction-train-and-inference.py</b>', make it modular as per your use.</br>
+<b>predict_output.csv</b> will be the output after executing <b>feature-extraction-train-and-inference.py</b>, this will contain class wise classification prediction probability.</br>
