@@ -41,7 +41,7 @@ audio-signal-classification</br>
 ├── audio_model.h5</br>
 └── predict_output.csv</br>
 
-Audio signal classification trained on below 10 classes :</br> 
+Audio signal classification trained on below 10 audio classes :</br> 
 air_conditioner[0], car_horn[1], children_playing[2], dog_bark[3], drilling[4], engine_idling[5], gun_shot[6], jackhammer[7], siren[8] and street_music[9].</br>
 
 Put all your data into data directory. Keep the file_name and class_name in a <b>.csv</b> file (like <b>train.csv</b> or <b>test.csv</b>).</br>
