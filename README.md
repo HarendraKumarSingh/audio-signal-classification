@@ -1,8 +1,8 @@
-# Audio Signal Classification
-Audio Signal Classification (similar to image classifier)
+# Audio Signal Classification (similar to image classifier)
 
-#1. Before starting audio signal classification, first understand the audio data type. Start your prctice by first manipulating an audio file with librosa, aubio and python.
 ## Practice expercise
+#1. Before starting audio signal classification, first understand the audio data type. Start your prctice by first manipulating an audio file with librosa, aubio and python.
+
 ### Audio data manipulation:
 Use audio-manipulation-with-python.ipynb for audio signal manipulation and plot audio pitches.
 Input audio file: sample.wav
