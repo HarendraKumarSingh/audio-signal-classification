@@ -16,10 +16,10 @@ Run the jupyter notebook file and pass input and output file name. The code will
 Maintain a folder structure like below for Audio Signal Classification:
 
 audio-signal-classification
-├── audio_feature_extractor.py
-├── audio_model_0_5441.h5
-├── audio_model.h5
-├── data
+|-- audio_feature_extractor.py
+|-- audio_model_0_5441.h5
+|-- audio_model.h5
+|-- data
 │   ├── inference
 │   │   ├── Inference
 │   │   │   ├── 8678.wav
