@@ -1,8 +1,8 @@
 # Audio Signal Classification (similar to image classifier)
 
-## Audio data manipulation:
+## 1.Audio data manipulation:
 
-#1. Before starting audio signal classification, first understand the audio data type. Start your prctice by first manipulating an audio file with librosa, aubio and python.
+Before starting audio signal classification, first understand the audio data type. Start your prctice by first manipulating an audio file with librosa, aubio and python.
 
 
 Use the <b>audio-manipulation-with-python.ipynb</b> for audio signal manipulation and plot audio pitches.
@@ -10,8 +10,8 @@ Input audio file: <b>sample.wav</b>
 output audio file: <b>robot_embedded_output.wav</b>
 Run the jupyter notebook file and pass input and output file name. The code will retun a robot voice embedded output file to the human input voice file. 
 
-### Audio Signal Classification:
-#2.Execute the feature-extraction-train-and-inference.py
+## 2. Audio Signal Classification:
+Execute the feature-extraction-train-and-inference.py
 </br>
 Maintain a folder structure like below for Audio Signal Classification:
 
