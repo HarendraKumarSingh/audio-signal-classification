@@ -15,31 +15,31 @@ Run the jupyter notebook file and pass input and output file name. The code will
 </br>
 Maintain a folder structure like below for Audio Signal Classification:
 
-audio-signal-classification
-|-- audio_feature_extractor.py
-|-- audio_model_0_5441.h5
-|-- audio_model.h5
-|-- data
-│   ├── inference
-│   │   ├── Inference
-│   │   │   ├── 8678.wav
-│   │   │   ├── 8679.wav
-│   │   │   └── 8681.wav
-│   │   └── inference.csv
-│   ├── test
-│   │   ├── Test
-│   │   │   ├── 8043.wav
-│   │   │   ├── 8046.wav
-│   │   │   └── 8047.wav
-│   │   └── test.csv
-│   └── train
-│       ├── Train
-│       │   ├── 0.wav
-│       │   ├── 1.wav
-│       │   └── 2.wav
-│       └── train.csv
-├── feature-extraction-train-and-inference.py
-└── predict_output.csv
+audio-signal-classification</br>
+|-- audio_feature_extractor.py</br>
+|-- audio_model_0_5441.h5</br>
+|-- audio_model.h5</br>
+|-- data</br>
+│   ├── inference</br>
+│   │   ├── Inference</br>
+│   │   │   ├── 8678.wav</br>
+│   │   │   ├── 8679.wav</br>
+│   │   │   └── 8681.wav</br>
+│   │   └── inference.csv</br>
+│   ├── test</br>
+│   │   ├── Test</br>
+│   │   │   ├── 8043.wav</br>
+│   │   │   ├── 8046.wav</br>
+│   │   │   └── 8047.wav</br>
+│   │   └── test.csv</br>
+│   └── train</br>
+│       ├── Train</br>
+│       │   ├── 0.wav</br>
+│       │   ├── 1.wav</br>
+│       │   └── 2.wav</br>
+│       └── train.csv</br>
+├── feature-extraction-train-and-inference.py</br>
+└── predict_output.csv</br>
 
 Put all your data into data directory. Keep the file_name and class_name in a <b>.csv</b> file (like <b>train.csv</b> or <b>test.csv</b>).
 Write a seperate inference file to check on any input sample. All training, test and inference logic provided in a single file '<b>feature-extraction-train-and-inference.py</b>', make it modular as per your use.
